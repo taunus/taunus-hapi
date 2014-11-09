@@ -1,0 +1,18 @@
+{
+  "name": "taunus-hapi",
+  "version": "1.0.0",
+  "description": "Taunus plugin for Hapi",
+  "main": "taunus-hapi.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/taunus-hapi.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/taunus-hapi/issues"
+  },
+  "homepage": "https://github.com/bevacqua/taunus-hapi",
+  "dependencies": {
+  }
+}
