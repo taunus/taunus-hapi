@@ -19,7 +19,7 @@ var pack = new Hapi.Pack();
 pack.register({
   plugin: taunusHapi,
   options: {
-    ...
+    // ...
   }
 });
 ```
