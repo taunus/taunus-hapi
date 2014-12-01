@@ -2,6 +2,7 @@
 
 var util = require('util');
 var pkg = require('./package.json');
+var matcher = /\{([a-z]+)(\?)?\}/ig;
 
 function factory (taunus) {
   var plugin = {
@@ -9,6 +10,9 @@ function factory (taunus) {
   };
 
   function register (plugin, options, next) {
+    if (taunus.resolve) {
+      taunus.resolve.use(matcher);
+    }
     taunus.mount(addRoute, options);
     next();
 
