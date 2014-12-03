@@ -5,14 +5,14 @@
   "main": "taunus-hapi.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bevacqua/taunus-hapi.git"
+    "url": "https://github.com/taunus/taunus-hapi.git"
   },
   "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bevacqua/taunus-hapi/issues"
+    "url": "https://github.com/taunus/taunus-hapi/issues"
   },
-  "homepage": "https://github.com/bevacqua/taunus-hapi",
+  "homepage": "https://github.com/taunus/taunus-hapi",
   "dependencies": {
   }
 }
