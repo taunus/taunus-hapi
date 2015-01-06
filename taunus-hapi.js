@@ -100,7 +100,7 @@ function factory (taunus) {
             });
           }
 
-          taunus.render(d.action, vm, req, res, next);
+          taunus.render(d, vm, req, res, next);
         }
 
         function next (err) {
