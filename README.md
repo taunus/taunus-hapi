@@ -24,7 +24,7 @@ pack.register({
 });
 ```
 
-Note that the `options` object is configured as [documented by the Taunus API documentation](http://taunus.bevacqua.io/api#using-taunus-hapi-).
+Note that the `options` object is configured as [documented by the Taunus API documentation](http://taunus.io/api#using-taunus-hapi-).
 
 # License
 
